@@ -1,0 +1,45 @@
+body{
+    background-image: url('airplain1.png');
+    background-size: cover;
+   
+    }
+
+.center{
+    display: flex; 
+    justify-content: center;
+    
+}
+h1{
+    color: rgba(28, 28, 233, 0.86);
+    text-align: center;
+    width: 370px;
+}
+.box{
+    background-color: rgba(0, 204, 255, 0.154);
+    height: 250px;
+    width: 370px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 240px;
+    height: 30px;
+}
+button{
+    color: white;
+    background-color: rgb(46, 46, 200);
+    width: 250px;
+    height: 33px;
+    border-style: none;
+}
+@media(max-width:767px){
+    body{
+        width: 375px;
+        height: 844px;
+        
+    }
+   
+}
+

@@ -1,0 +1,57 @@
+.titel{
+    height: 70px;
+}
+.imgaround{
+    border-radius: 50%;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: gray;
+      text-decoration: none;
+      margin-top: 15px;
+      text-align: center;
+      margin: 10px;
+}
+nav{
+      display: flex;
+      justify-content: center;
+}
+.link{
+      height: 50px;
+      background-color: rgb(228, 228, 228);
+      position: sticky;
+      top: 0px;
+}
+h1{
+    margin-left: 20px;
+}
+.qus {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(204, 243, 243);
+}
+
+.ans {
+    display: none;
+}
+
+.qus:hover .ans {
+    display: block;
+}
+footer{
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+}
+.black{
+    font-weight: normal;
+}
